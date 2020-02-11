@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_home_white"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icon_restaurant_black"
+            android:title="@string/restaurant" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icon_hotel_black"
+            android:title="@string/hotel" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/icon_attraction_black"
+            android:title="@string/attractions" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/icon_map_black"
+                android:title="@string/map" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/icon_profile_black"
+                android:title="@string/profile" />
+        </menu>
+    </item>
+
+</menu>
